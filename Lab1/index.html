@@ -7,24 +7,23 @@
     [x] <br>
     [x] <hr>
     [x] <p>
-    [] <b>
-    [] <div>
-    [] <ul>
-    [] <li>
+    [x] <b>
+    [ ] <div>
+    [x] <ul>
+    [x] <li>        
     [x] <section>
-    [] <article>
+    [ ] <article>
     [x] <footer>
     [x] <header>
-    [] <aside>
-    [] <nav>
-    [] <svg>
-    [] <audio>
-    [] <video>
-    [] <figure>
-    [] <figurecaption>
+    [x] <aside>
+    [x] <nav>
+    [ ] <svg>
+    [x] <audio>
+    [x] <video>
+    [ ] <figure>
+    [ ] <figurecaption>
     [x] <main>
 -->
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -35,38 +34,32 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="">
     </head>
-
     <body>
-
         <header>
-
         </header>
-        
         <main>
-            
-            <img width="800" src="https://www.topgear.com/sites/default/files/images/news-article/carousel/2020/11/cdfa20172ebb83b9e2191625850c1f63/m252101.jpg">
-
-            <p>
-                Sir Lewis Hamilton
-                <br>
-
-                7th Time Formula One World Champion
-                <br>
-
-                He is in the
-                <a href="https://www.mercedesamgf1.com/">
-                    Mercedes AMG Petronas Formula One Team
-                </a>
-
-            </p>
-
-            <!--TODO
-                [x] table with Mercedes AMG Petronas F1 team cars (from wiki)
-            -->
-            <!--TODO
-                [] audio for each Mercedes AMG Petronas F1 car engine
-            -->
-            <section>
+            <nav>
+                <ul>
+                    <li><a href="#1">Sir Lewis Hamilton</a></li>
+                    <li><a href="#2">Mercedes AMG Petronas Formula One Team</a></li>
+                    <li><a href="#3">Sir Lewis Hailton on his 7th Formula One World Title</a></li>
+                </ul>
+            </nav>
+            <section id="1">
+                <img width="800" src="https://www.topgear.com/sites/default/files/images/news-article/carousel/2020/11/cdfa20172ebb83b9e2191625850c1f63/m252101.jpg">
+                <p>
+                    Sir Lewis Hamilton
+                    <br>
+                    7th Time Formula One World Champion
+                    <br>
+                    He is racing for the
+                    <a href="https://www.mercedesamgf1.com/">
+                        Mercedes AMG Petronas Formula One Team
+                    </a>
+                </p>
+            </section>
+            <aside id="2">
+                <b>Some stats by Mercedes AMG Petronas Formula One Team</b>
                 <table border="">
                     <tr>
                         <th>Season</th>
@@ -76,6 +69,7 @@
                         <th>Pole Positions</th>
                         <th>Podiums</th>
                         <th>Fastest Laps</th>
+                        <th>Audio</th>
                     </tr>
                     <tr>
                         <td>2014</td>
@@ -85,6 +79,11 @@
                         <td>18</td>
                         <td>31</td>
                         <td>12</td>
+                        <td>
+                            <audio controls>
+                                <source src="audio/Mercedes_W05_sound.mp4"></source>
+                            </audio>
+                        </td>
                     </tr>
                     <tr>
                         <td>2015</td>
@@ -94,6 +93,11 @@
                         <td>18</td>
                         <td>32</td>
                         <td>13</td>
+                        <td>
+                            <audio controls>
+                                <source src="audio/Mercedes_W06_sound.mp4"></source>
+                            </audio>
+                        </td>
                     </tr>
                     <tr>
                         <td>2016</td>
@@ -103,6 +107,11 @@
                         <td>20</td>
                         <td>33</td>
                         <td>9</td>
+                        <td>
+                            <audio controls>
+                                <source src="audio/Mercedes_W07_sound.mp4"></source>
+                            </audi>
+                        </td>
                     </tr>
                     <tr>
                         <td>2017</td>
@@ -112,6 +121,11 @@
                         <td>15</td>
                         <td>26</td>
                         <td>9</td>
+                        <td>
+                            <audio controls>
+                                <source src="audio/Mercedes_W08_sound.mp4"></source>
+                            </audi>
+                        </td>
                     </tr>
                     <tr>
                         <td>2018</td>
@@ -121,6 +135,11 @@
                         <td>13</td>
                         <td>25</td>
                         <td>10</td>
+                        <td>
+                            <audio controls>
+                                <source src="audio/Mercedes_W09_sound.mp4"></source>
+                            </audi>
+                        </td>
                     </tr>
                     <tr>
                         <td>2019</td>
@@ -130,6 +149,11 @@
                         <td>10</td>
                         <td>32</td>
                         <td>9</td>
+                        <td>
+                            <audio controls>
+                                <source src="audio/Mercedes_W10_sound.mp4"></source>
+                            </audi>
+                        </td>
                     </tr>
                     <tr>
                         <td>2020</td>
@@ -139,6 +163,11 @@
                         <td>15</td>
                         <td>25</td>
                         <td>9</td>
+                        <td>
+                            <audio controls>
+                                <source src="audio/Mercedes_W11_sound.mp4"></source>
+                            </audi>
+                        </td>
                     </tr>
                     <tr>
                         <td>2021</td>
@@ -148,27 +177,30 @@
                         <td>9</td>
                         <td>28</td>
                         <td>10</td>
+                        <td>
+                            <audio controls>
+                                <source src="audio/Mercedes_W12_sound.mp4"></source>
+                            </audi>
+                        </td>
                     </tr>
                 </table>
-            </section>
-
-            <!--TODO
-                [] video with Sir Lewis Hamilton wining his 7th world title
-            -->
-
-        </main>
-
-        <footer>
-
+            </aside>
             <hr>
-    
+            <section id="3">
+                <video controls>
+                    <source src="video/Sir_Lewis_Hamilton.mp4"></source>
+                </video>
+                <p>
+                    Sir Lewis Hamilton winning his 7th Formula One World Title
+                </p>
+            </section>
+        </main>
+        <footer>
+            <hr>
                 <p>
                     Coded by neon1024_
                 </p>
-
             <hr>
-    
         </footer>
-
     </body>
 </html>
