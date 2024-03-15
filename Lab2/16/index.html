@@ -1,35 +1,76 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title></title>
-        <meta name="description" content="" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="style.css" />
+        <!-- HACK after importing a font, it will become available for use, so you must specify the font in the stylesheet -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap"
+            rel="stylesheet"
+        />
+        <title>Lab 2</title>
+        <title>Vertical Menu</title>
     </head>
     <body>
-        <header>
-            <nav>
-                <menu>
+        <div class="menu-container">
+            <div class="menu">
+                <h2>Menu</h2>
+                <ul>
                     <li>
-                        <div class="div-item">Item 1</div>
-                        <ul class="ul-commands">
-                            <div>Command 1</div>
-                            <div>Command 2</div>
-                            <div>Command 3</div>
-                            <div>Command 4</div>
-                            <div>Command 5</div>
-                        </ul>
+                        Item 1
+                        <div class="commands-container">
+                            <div class="command">Command 1</div>
+                            <div class="command">Command 2</div>
+                            <div class="command">Command 3</div>
+                            <div class="command">Command 4</div>
+                            <div class="command">Command 5</div>
+                        </div>
                     </li>
-                    <li>Item 2</li>
-                    <li>Item 3</li>
-                    <li>Item 4</li>
-                    <li>Item 5</li>
-                </menu>
-            </nav>
-        </header>
-        <main></main>
-        <footer></footer>
+                    <li>
+                        Item 2
+                        <div class="commands-container">
+                            <div class="command">Command 1</div>
+                            <div class="command">Command 2</div>
+                            <div class="command">Command 3</div>
+                            <div class="command">Command 4</div>
+                            <div class="command">Command 5</div>
+                        </div>
+                    </li>
+                    <li>
+                        Item 3
+                        <div class="commands-container">
+                            <div class="command">Command 1</div>
+                            <div class="command">Command 2</div>
+                            <div class="command">Command 3</div>
+                            <div class="command">Command 4</div>
+                            <div class="command">Command 5</div>
+                        </div>
+                    </li>
+                    <li>
+                        Item 4
+                        <div class="commands-container">
+                            <div class="command">Command 1</div>
+                            <div class="command">Command 2</div>
+                            <div class="command">Command 3</div>
+                            <div class="command">Command 4</div>
+                            <div class="command">Command 5</div>
+                        </div>
+                    </li>
+                    <li>
+                        Item 5
+                        <div class="commands-container">
+                            <div class="command">Command 1</div>
+                            <div class="command">Command 2</div>
+                            <div class="command">Command 3</div>
+                            <div class="command">Command 4</div>
+                            <div class="command">Command 5</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </body>
 </html>
