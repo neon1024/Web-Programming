@@ -1,0 +1,129 @@
+<!--
+TODO
+Develop an html+css web document that looks like the following web page:
+http://www.ucla.edu/. You should clone about one screen of this web page
+(not the whole web page) and your html document should look approximately 90%
+as the given web page. No interactivity should be added
+(e.g. javascript, :hover effects etc.) and you are not allowed to use any css
+or javascript library.
+TODO News and Features section
+[x] hr that encapsulates the section
+[ ] main container for "News and Features" + Quote + Photo
+    [ ] h2 with "News and Features text"
+    [ ] container for the Quote
+[ ] main container for the cards
+    [ ] card container
+[ ] page icon
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="style.css" />
+        <title>UCLA</title>
+    </head>
+    <body>
+        <main>
+            <hr />
+            <div class="wrapper">
+                <div class="upper-container">
+                    <h2>News and Features</h2>
+                    <div class="news-and-features-link">
+                        <a href="">All News & Features</a>
+                    </div>
+                    <img src="images/main_photo.jpg" />
+                    <div class="main-news-card">
+                        <p class="main-news-date">February 24, 2024</p>
+                        <a href="" class="main-news-quote"
+                            >A 'masterpiece' of a day:
+                            <br />
+                            Hundreds gather to honor
+                            <br />
+                            Coach John Wooden
+                        </a>
+                        <p>
+                            Campus ceremony marks the first day-of-issue of U.S.
+                            Postal Service’s
+                            <br />
+                            commemorative Wooden stamp
+                        </p>
+                        <b>Source: </b>
+                        <a href="" class="main-news-source-link"
+                            >UCLA Newsroom</a
+                        >
+                    </div>
+                </div>
+                <div class="bottom-container">
+                    <!-- TODO
+                    [ ] remove <br>
+                    -->
+                    <div class="news-card">
+                        <img src="images/news1.jpg" />
+                        <p class="news-date">February 26, 2024</p>
+                        <a href="" class="news-quote">
+                            UCLA receives $10M to
+                            <br />
+                            launch Levine Family Center for Movement
+                            <br />
+                            Disorders
+                        </a>
+                        <p>
+                            The center will focus on
+                            <br />
+                            neurodegenerative diseases like
+                            <br />
+                            Parkinson's and foster the development of
+                            <br />
+                            physician-scientists in neurology
+                        </p>
+                        <b>Source: </b><a href=""> UCLA Newsroom</a>
+                    </div>
+                    <div class="news-card">
+                        <img src="images/news2.jpg" />
+                        <p class="news-date">February 16, 2024</p>
+                        <a href="" class="news-quote">
+                            Watch: Great ape children
+                            <br />
+                            poke and run from adults,
+                            <br />
+                            like humans
+                        </a>
+                        <p>
+                            Scientists have observed young
+                            <br />
+                            orangutans and other apes engaging in
+                            <br />
+                            playful teasing to get adults' attention
+                        </p>
+                        <b>Source: </b><a href=""> UCLA Newsroom</a>
+                    </div>
+                    <div class="news-card">
+                        <img src="images/news3.jpg" />
+                        <p class="news-date">February 22, 2024</p>
+                        <a href="" class="news-quote">
+                            UCLA College Corps
+                            <br />
+                            receives new grant from
+                            <br />
+                            governor's office
+                        </a>
+                        <p>
+                            The unique volunteering program has
+                            <br />
+                            helped make a university education more
+                            <br />
+                            affordable for underrepresented students
+                            <br />
+                            of color
+                        </p>
+                        <b>Source: </b><a href=""> UCLA Newsroom</a>
+                    </div>
+                </div>
+            </div>
+            <hr />
+        </main>
+    </body>
+</html>
