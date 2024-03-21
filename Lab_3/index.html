@@ -8,11 +8,11 @@ as the given web page. No interactivity should be added
 or javascript library.
 TODO News and Features section
 [x] hr that encapsulates the section
-[ ] main container for "News and Features" + Quote + Photo
-    [ ] h2 with "News and Features text"
-    [ ] container for the Quote
-[ ] main container for the cards
-    [ ] card container
+[x] main container for "News and Features" + Quote + Photo
+    [x] h2 with "News and Features text"
+    [x] container for the Quote
+[x] main container for the cards
+    [x] card container
 [x] favicon
 -->
 <!DOCTYPE html>
@@ -31,30 +31,34 @@ TODO News and Features section
             <hr />
             <div class="wrapper">
                 <div class="upper-container">
-                    <h2 class="featured-title__h2">News and Features</h2>
-                    <div class="news-and-features__link">
-                        <a href="">All News & Features</a>
+                    <div class="news-and-features__container">
+                        <h2 class="featured-title__h2">News and Features</h2>
+                        <div class="news-and-features__link">
+                            <a href="">All News & Features</a>
+                        </div>
                     </div>
-                    <img src="images/main_photo.jpg" />
-                    <div class="main-news-card">
-                        <p class="main-news-card__date">March 14, 2024</p>
-                        <a href="" class="main-news-card__quote">
-                            Speaking without vocal
-                            <br />
-                            cords, thanks to AI-assisted
-                            <br />
-                            wearable device
-                        </a>
-                        <p class="news-card__description">
-                            The adhesive neck patch is the latest advance by
-                            UCLA bioengineers in
-                            <br />
-                            speech technology for people with disabilities
-                        </p>
-                        <b>Source: </b>
-                        <a href="" class="main-news-card__source-link"
-                            >UCLA Newsroom</a
-                        >
+                    <div class="main-news__container">
+                        <div class="main-news-card">
+                            <p class="main-news-card__date">March 14, 2024</p>
+                            <a href="" class="main-news-card__quote">
+                                Speaking without vocal
+                                <br />
+                                cords, thanks to AI-assisted
+                                <br />
+                                wearable device
+                            </a>
+                            <p class="news-card__description">
+                                The adhesive neck patch is the latest advance by
+                                UCLA bioengineers in
+                                <br />
+                                speech technology for people with disabilities
+                            </p>
+                            <b>Source: </b>
+                            <a href="" class="main-news-card__source-link"
+                                >UCLA Newsroom</a
+                            >
+                        </div>
+                        <img src="images/main_photo.jpg" />
                     </div>
                 </div>
                 <div class="bottom-container">
