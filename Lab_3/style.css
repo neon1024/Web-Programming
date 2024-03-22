@@ -2,14 +2,14 @@ html {
     margin: 0;
     padding: 0;
     border: 0;
+
+    font-family: "Helvetica", "Arial", sans-serif;
 }
 
 body {
     margin: 0;
     padding: 0;
     border: 0;
-
-    font-family: "Helvetica", "Arial", sans-serif;
 }
 
 .wrapper {
@@ -20,7 +20,8 @@ body {
 }
 
 .upper-container {
-    margin: 0 23em 3em 23em;
+    /* margin: 0 23em 3em 23em; */
+    margin: 0 11.5em 1em 11.5em;
 }
 
 .news-and-features__container {
@@ -60,7 +61,7 @@ body {
 .main-news-card {
     background: #ffffff;
     position: absolute;
-    padding: 0 2.5em 2em 3em;
+    padding: 0 2.2em 2em 3em;
     flex: 1;
 }
 
@@ -174,7 +175,7 @@ body {
 }
 
 .news-card__container--bottom {
-    width: 64%;
+    width: 80%;
     position: absolute;
 
     display: flex;
