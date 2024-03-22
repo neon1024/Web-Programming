@@ -13,30 +13,25 @@ body {
 }
 
 .wrapper {
-    margin: 0 1px;
-    padding: 0 36px;
+    border-style: solid;
+    border-color: #cccccc;
+    border-width: 1px 0 1px 0;
+    margin: 1em 0 1em 0;
 }
 
 .upper-container {
-    margin: 0 19em 0 20em;
-    padding: 0 0 15px;
-}
-
-.upper-container img {
-    margin: 3em 0 0 0; /* 124px */
-    width: 675px;
-    height: auto;
+    margin: 0 23em 3em 23em;
 }
 
 .news-and-features__container {
     width: 100%;
-    margin: 0 10em 0 1em;
 }
 
 .featured-title__h2 {
     font-size: 36px;
     color: #333333;
     margin: 48px 0 -16px 0;
+    text-align: left;
 }
 
 .news-and-features__link {
@@ -52,19 +47,21 @@ body {
 
 .main-news__container {
     display: flex;
+    align-items: center;
+    margin: 2em 0 2em 0;
 }
 
 .main-news__container img {
     width: 675px;
     height: 450px;
-    margin: 2em 0 0 30em;
+    margin-left: auto;
 }
 
 .main-news-card {
     background: #ffffff;
     position: absolute;
-    margin: 7.5em 0 0 3em;
-    padding: 0 2.2em 1.8em 0;
+    padding: 0 2.5em 2em 3em;
+    flex: 1;
 }
 
 .main-news-card b {
@@ -86,10 +83,24 @@ body {
     font-weight: 700;
 }
 
+.main-news-card__description {
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+
+    padding: 0;
+}
+
 .news-card__description {
     font-size: 16px;
     line-height: 24px;
     color: #333333;
+
+    padding: 0 2em 2em 2em;
+}
+
+.news-card__source-link-container {
+    padding: 0 0 2em 2em;
 }
 
 .main-news-card__source-link {
@@ -109,14 +120,18 @@ body {
 .bottom-container {
     background: #f2f2f2;
 
-    padding: 0 20em 2em 20em;
+    padding: 0 23em 2em 23em;
 
     display: flex;
     justify-content: space-evenly;
+
+    height: 42em;
 }
 
 .news-card {
     background-color: #ffffff;
+    width: 30%;
+    margin: 0 0.5em 0 0.5em;
 }
 
 .news-card img {
@@ -133,7 +148,8 @@ body {
 }
 
 .news-card__date {
-    padding: 1em 0 0 2em;
+    padding: 2em 0 0 2em;
+    margin: 0;
 }
 
 .news-card__quote {
@@ -141,8 +157,13 @@ body {
     color: #00598c;
     font-size: 24px;
     font-weight: 700;
+}
 
-    padding: 1em 0 0 2em;
+.news-card__quote p {
+    text-wrap: wrap;
+    padding: 0 1em 0 1.2em;
+    width: fit-content;
+    margin: 0.5em 0 0 0;
 }
 
 .news-card__source-link {
@@ -150,4 +171,15 @@ body {
     font-weight: 700;
     text-decoration: none;
     color: #00598c;
+}
+
+.news-card__container--bottom {
+    width: 64%;
+    position: absolute;
+
+    display: flex;
+
+    justify-content: space-evenly;
+
+    top: 38.5em;
 }
