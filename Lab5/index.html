@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Lab 5</title>
+        <meta name="description" content="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="stylesheet.css" />
+        <script src="main.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <header></header>
+    <body>
+        <div class="combo-box">
+            <select
+                id="counties-combo-box"
+                name="counties-combo-box__select"
+                onchange="update_cities()"
+            >
+                <option hidden value="0">County</option>
+                <option value="1">Cluj</option>
+                <option value="2">Ilfov</option>
+                <option value="3">Timis</option>
+            </select>
+
+            <select id="cities-combo-box" name="cities-combo-box__select">
+                <option hidden value="0">City</option>
+            </select>
+        </div>
+    </body>
+    <footer></footer>
+</html>

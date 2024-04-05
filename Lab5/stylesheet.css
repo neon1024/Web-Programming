@@ -1,0 +1,21 @@
+html {
+    background: #424549;
+}
+
+.combo-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+select {
+    background-color: #36393e;
+    color: #7289da;
+    border-style: solid;
+    border-width: 0 5px 5px 0;
+    border-color: #1e2124;
+    border-radius: 15px;
+    font-size: 25px;
+    padding: 5px;
+}
