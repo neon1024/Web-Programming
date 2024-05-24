@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Update Recipe</title>
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="../styles/updateRecipe.css"
+        />
+    </head>
+
+    <body>
+        <h1>Update Recipe</h1>
+
+        <div class="container">
+            <p><b>Are you sure you want to update this recipe?</b></p>
+
+            <form action="../scripts/updateRecipeBackend.php" method="post">
+                <input
+                    type="hidden"
+                    name="id"
+                    value="<?php echo trim($_GET['id']); ?>"
+                />
+                <button type="submit" class="yes">YES</button>
+            </form>
+            <button
+                class="no"
+                onclick="window.location.href='../pages/showRecipes.html'"
+            >
+                NO
+            </button>
+        </div>
+    </body>
+</html>

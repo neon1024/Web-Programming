@@ -1,0 +1,18 @@
+:root {
+    --primary-color: #ef626c;
+    --text-color: #f6e8ea;
+    --secondary-color: #22181c;
+    --accent-color: #312f2f;
+}
+
+html {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    font-family: "Jura", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    background-color: var(--primary-color);
+}

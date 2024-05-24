@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Recipes Book</title>
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="../styles/showRecipes.css"
+        />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="../scripts/showRecipes.js"></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="button--go-back">
+                <a href="../main.php">Back</a>
+            </div>
+            <form
+                action="../scripts/showRecipes.php"
+                method="get"
+                class="details"
+            >
+                <h1>Recipes</h1>
+
+                <input type="text" placeholder="Type:" id="type" name="type" />
+
+                <input type="text" placeholder="Name:" id="name" name="name" />
+
+                <button
+                    class="add"
+                    onclick="window.location.href='../pages/addRecipe.html'"
+                >
+                    Add new recipe
+                </button>
+                <p id="info">hi</p>
+            </form>
+            <table>
+                <tr>
+                    <th>Author</th>
+                    <th>Name</th>
+                    <th>Type</th>
+                    <th>Description</th>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>
